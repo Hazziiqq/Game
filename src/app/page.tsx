@@ -27,7 +27,7 @@ export default function Home() {
 
         {/* Subtitle */}
         <p className="text-sm text-cyan-400/60 uppercase tracking-widest font-semibold">
-          An immersive puzzle adventure awaits you.
+          The only way out is solving the puzzles.
         </p>
 
         {/* Buttons */}

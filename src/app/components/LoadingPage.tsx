@@ -1,8 +1,6 @@
 'use client'
-
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { log } from 'console'
 
 export default function LoadingScreen() {
   const [progress, setProgress] = useState(0)
@@ -16,7 +14,7 @@ export default function LoadingScreen() {
           clearInterval(interval)
           setTimeout(() => {
             
-            router.push('/game/room1')
+            router.push('/game/room')
           }, 300)
         }
         return next
